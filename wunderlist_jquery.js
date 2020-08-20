@@ -1,4 +1,4 @@
-ádasdasdaswindow.addEventListener("resize",function(){
+window.addEventListener("resize",function(){
     if(window.innerWidth >1000 ){
         // console.log("123");
         document.getElementById("slide").style.width = "280px";
