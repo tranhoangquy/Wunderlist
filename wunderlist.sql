@@ -20,6 +20,7 @@ create table task(
     status varchar(5) not null,
     list_id int NOT NULL,
     date date,
+    duedate date,
     time datetime,
     primary key(id),
     foreign key(list_id) references list(id)
